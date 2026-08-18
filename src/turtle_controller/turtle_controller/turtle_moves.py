@@ -14,10 +14,11 @@ class TurtleMoves(Node):
 
         self.cmd_vel_publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
 
-        self.linear_speed = 2.0
-        self.angular_speed = 2.0
+        self.linear_speed = self.declare_parameter('linear_speed', 2.0).value
+        self.angular_speed = self.declare_parameter('angular_speed', 2.0).value
 
-        self.get_logger().info('Turtle can move!. Use W/A/S/D or ARROWS.')
+        self.get_logger().info('Turtle can move!.' \
+        'Use W/A/S/D or ARROWS.')
 
         self.settings = termios.tcgetattr(sys.stdin)
         tty.setcbreak(sys.stdin.fileno())
