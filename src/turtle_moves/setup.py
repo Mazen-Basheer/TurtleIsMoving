@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='skilledmazen',
-    maintainer_email='skilledmazen@todo.todo',
+    maintainer='Mazen AwadAllah',
+    maintainer_email='mazen54mohamed@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'turtle_moves = turtle_moves.turtle_moves:main',
         ],
     },
 )
