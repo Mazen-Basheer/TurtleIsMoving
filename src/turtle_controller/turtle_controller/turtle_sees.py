@@ -1,6 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from turtlesim.msg import Color
+from std_msgs.msg import String
 
 
 class ColorSubscriber(Node):
@@ -8,6 +9,7 @@ class ColorSubscriber(Node):
         super().__init__('turtle_sees')
 
         self.turtle_sees = self.create_subscription(Color, '/turtle1/color_sensor', self.color_callback, 10)
+        self.dominant_color_publisher = self.create_publisher(String, '/dominant_color', 10)
 
         self.get_logger().info('Turtle can see!')
 
@@ -27,6 +29,10 @@ class ColorSubscriber(Node):
 
         self.get_logger().info(f'Dominant Color: {dominant_color}')
 
+        color_message = String()
+        color_message.data = dominant_color
+        self.dominant_color_publisher.publish(color_message)
+
 
 def main():
     rclpy.init()
@@ -34,9 +40,9 @@ def main():
 
     rclpy.spin(node)
 
-    node.stop_turtle()
     node.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()
