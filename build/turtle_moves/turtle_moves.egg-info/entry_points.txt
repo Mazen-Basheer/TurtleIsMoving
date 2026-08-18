@@ -1,2 +1,0 @@
-[console_scripts]
-turtle_moves = turtle_moves.turtle_moves:main

@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_moves = turtle_controller.turtle_moves:main
+turtle_sees = turtle_controller.turtle_sees:main

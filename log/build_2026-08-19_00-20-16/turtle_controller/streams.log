@@ -1,0 +1,40 @@
+[0.682s] Invoking command in '/home/skilledmazen/turtle_ws/build/turtle_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/skilledmazen/turtle_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/skilledmazen/turtle_ws/build/turtle_controller/build
+[0.932s] running develop
+[1.113s] Removing /home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages/turtle-controller.egg-link (link to .)
+[1.134s] Invoked command in '/home/skilledmazen/turtle_ws/build/turtle_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/skilledmazen/turtle_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/skilledmazen/turtle_ws/build/turtle_controller/build
+[1.135s] Invoking command in '/home/skilledmazen/turtle_ws/src/turtle_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/skilledmazen/turtle_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/skilledmazen/turtle_ws/build/turtle_controller/build install --record /home/skilledmazen/turtle_ws/build/turtle_controller/install.log --install-scripts $base/lib/turtle_controller --single-version-externally-managed install_data --force
+[1.360s] running egg_info
+[1.377s] writing ../../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+[1.377s] writing dependency_links to ../../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+[1.377s] writing entry points to ../../build/turtle_controller/turtle_controller.egg-info/entry_points.txt
+[1.377s] writing requirements to ../../build/turtle_controller/turtle_controller.egg-info/requires.txt
+[1.377s] writing top-level names to ../../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+[1.412s] reading manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[1.413s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[1.413s] running build
+[1.413s] running build_py
+[1.413s] creating /home/skilledmazen/turtle_ws/build/turtle_controller/build
+[1.413s] creating /home/skilledmazen/turtle_ws/build/turtle_controller/build/lib
+[1.414s] creating /home/skilledmazen/turtle_ws/build/turtle_controller/build/lib/turtle_controller
+[1.414s] copying turtle_controller/__init__.py -> /home/skilledmazen/turtle_ws/build/turtle_controller/build/lib/turtle_controller
+[1.414s] copying turtle_controller/turtle_moves.py -> /home/skilledmazen/turtle_ws/build/turtle_controller/build/lib/turtle_controller
+[1.414s] copying turtle_controller/turtle_sees.py -> /home/skilledmazen/turtle_ws/build/turtle_controller/build/lib/turtle_controller
+[1.414s] running install
+[1.420s] running install_lib
+[1.437s] creating /home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller
+[1.437s] copying /home/skilledmazen/turtle_ws/build/turtle_controller/build/lib/turtle_controller/__init__.py -> /home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller
+[1.437s] copying /home/skilledmazen/turtle_ws/build/turtle_controller/build/lib/turtle_controller/turtle_moves.py -> /home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller
+[1.437s] copying /home/skilledmazen/turtle_ws/build/turtle_controller/build/lib/turtle_controller/turtle_sees.py -> /home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller
+[1.438s] byte-compiling /home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller/__init__.py to __init__.cpython-312.pyc
+[1.438s] byte-compiling /home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller/turtle_moves.py to turtle_moves.cpython-312.pyc
+[1.439s] byte-compiling /home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller/turtle_sees.py to turtle_sees.cpython-312.pyc
+[1.439s] running install_data
+[1.439s] copying resource/turtle_controller -> /home/skilledmazen/turtle_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[1.439s] copying package.xml -> /home/skilledmazen/turtle_ws/install/turtle_controller/share/turtle_controller
+[1.439s] running install_egg_info
+[1.457s] Copying ../../build/turtle_controller/turtle_controller.egg-info to /home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller-0.0.0-py3.12.egg-info
+[1.458s] running install_scripts
+[1.570s] Installing turtle_moves script to /home/skilledmazen/turtle_ws/install/turtle_controller/lib/turtle_controller
+[1.570s] Installing turtle_sees script to /home/skilledmazen/turtle_ws/install/turtle_controller/lib/turtle_controller
+[1.570s] writing list of installed files to '/home/skilledmazen/turtle_ws/build/turtle_controller/install.log'
+[1.591s] Invoked command in '/home/skilledmazen/turtle_ws/src/turtle_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/skilledmazen/turtle_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skilledmazen/turtle_ws/install/turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/skilledmazen/turtle_ws/build/turtle_controller/build install --record /home/skilledmazen/turtle_ws/build/turtle_controller/install.log --install-scripts $base/lib/turtle_controller --single-version-externally-managed install_data --force
